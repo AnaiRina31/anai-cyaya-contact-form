@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>お問い合わせ</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+  <form class="contact-box">
+		
+		<h1>お問い合わせ</h1>
+			
+		<dl>
+			<dt>お名前</dt>
+			<dd>
+        <input type="text" name="namedata"  placeholder="例) 穴井 花子" class="input-text">
+      </dd>
+    </dl>
+    
+		<dl>
+			<dt>メールアドレス</dt>
+			<dd>
+        <input type="email" name="emaildata"  placeholder="例) abc@example.com" class="input-email">
+      </dd>
+		</dl>
+		
+		<dl>
+			<dt>お問い合わせ内容</dt>
+      <dd>
+        <textarea name="textboxdata" class="textboxdata"></textarea>
+      </dd>
+    </dl>
+    
+    <dl>
+      <dt>アプリでの返信希望の有無</dt>
+      <p class="kome-text">※会員登録されているお客様につきましては、希望制で当店のアプリ内にて返信を差し上げております。</p>
+			<dd class="select_form select_form_inner">
+			<select name="" id="">
+				<option value="yes">希望する</option>
+				<option value="no" selected="select">希望しない</option>
+			</select>
+      </dd>
+		</dl>
+		
+		<div>
+			<button class="submit-btn">送信</button>
+		</div>
+		
+	</form>
+</body>
+</html>
